@@ -1,0 +1,36 @@
+### Java / Maven ###
+target/
+bin/
+build/
+*.class
+
+### Logs & Test Artifacts ###
+*.log
+/screenshots/*
+/test-output/
+/logs/
+
+### IDEs ###
+.idea/
+.vscode/
+*.iml
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+.metadata
+.recommenders/
+.apt_generated/
+.sts4-cache/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Environment ###
+.env
+*.env
+.env.*
+*.local
+/.apt_generated_tests/

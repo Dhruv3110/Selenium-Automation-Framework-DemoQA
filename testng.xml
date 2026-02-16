@@ -1,0 +1,14 @@
+<suite name="DemoQA Automation Suite"
+       parallel="methods"
+       thread-count="2">
+
+    <test name="All Tests">
+        <packages>
+            <package name="tests.elements" />
+            <package name="tests.alerts_frame_windows" />
+            <package name="tests.forms" />
+            <package name="tests.widgets" />
+        </packages>
+    </test>
+
+</suite>
